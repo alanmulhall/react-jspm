@@ -1,0 +1,1 @@
+module.exports = require("npm:warning@2.0.0/browser");
