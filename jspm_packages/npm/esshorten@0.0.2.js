@@ -1,0 +1,1 @@
+module.exports = require("npm:esshorten@0.0.2/lib/esshorten");

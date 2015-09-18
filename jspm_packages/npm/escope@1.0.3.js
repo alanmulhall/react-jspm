@@ -1,0 +1,1 @@
+module.exports = require("npm:escope@1.0.3/escope");

@@ -1,0 +1,1 @@
+module.exports = require("npm:esmangle@0.0.17/lib/esmangle");

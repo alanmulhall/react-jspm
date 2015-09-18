@@ -1,7 +1,10 @@
-/* */ 
+/* */
 'use strict';
 
-exports.__esModule = true;
+"format cjs";
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
 exports.addEventListener = addEventListener;
 exports.removeEventListener = removeEventListener;
 exports.getHashPath = getHashPath;
