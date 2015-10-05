@@ -19,7 +19,7 @@ System.config({
     "core-js": "npm:core-js@1.1.4",
     "jsx": "npm:jsx@0.9.89",
     "live-server": "npm:live-server@0.8.1",
-    "react": "npm:react@0.13.3",
+    "react": "npm:react@0.14.0-rc1",
     "react-dom": "npm:react-dom@0.14.0-rc1",
     "react-router": "npm:react-router@1.0.0-rc1",
     "github:jspm/nodelibs-assert@0.1.0": {
@@ -720,11 +720,6 @@ System.config({
       "history": "npm:history@1.9.1",
       "invariant": "npm:invariant@2.1.0",
       "warning": "npm:warning@2.0.0"
-    },
-    "npm:react@0.13.3": {
-      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
-      "envify": "npm:envify@3.4.0",
-      "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:react@0.14.0-rc1": {
       "envify": "npm:envify@3.4.0",
