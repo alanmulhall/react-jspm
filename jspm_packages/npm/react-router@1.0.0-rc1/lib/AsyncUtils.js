@@ -1,10 +1,7 @@
-/* */
+/* */ 
 "use strict";
 
-"format cjs";
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
+exports.__esModule = true;
 exports.loopAsync = loopAsync;
 exports.mapAsync = mapAsync;
 

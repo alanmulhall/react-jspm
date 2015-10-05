@@ -7,7 +7,7 @@ describe('static type object-method syntax', function() {
   beforeEach(function() {
     require("mock-modules").dumpCache();
     flowSyntaxVisitors = require("../type-syntax").visitorList;
-    jstransform = require("../../src/jstransform");
+    jstransform = require("../../../jstransform@10.1.0");
     objMethodVisitors = require("../es6-object-concise-method-visitors");
     visitorList = objMethodVisitors.visitorList;
   });

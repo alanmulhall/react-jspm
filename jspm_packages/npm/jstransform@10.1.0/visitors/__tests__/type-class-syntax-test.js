@@ -9,7 +9,7 @@ describe('static type class syntax', function() {
     require("mock-modules").dumpCache();
     classSyntaxVisitors = require("../es6-class-visitors").visitorList;
     flowSyntaxVisitors = require("../type-syntax").visitorList;
-    jstransform = require("../../src/jstransform");
+    jstransform = require("../../../jstransform@10.1.0");
     visitorList = classSyntaxVisitors;
   });
   function transform(code, visitors) {

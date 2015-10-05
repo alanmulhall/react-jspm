@@ -6,7 +6,7 @@ describe('static type interface syntax', function() {
   beforeEach(function() {
     require("mock-modules").dumpCache();
     flowSyntaxVisitors = require("../type-syntax").visitorList;
-    jstransform = require("../../src/jstransform");
+    jstransform = require("../../../jstransform@10.1.0");
   });
   function transform(code, visitors) {
     code = jstransform.transform(flowSyntaxVisitors, code.join('\n')).code;

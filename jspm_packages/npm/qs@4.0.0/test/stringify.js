@@ -2,7 +2,7 @@
 (function(Buffer) {
   var Code = require("code");
   var Lab = require("lab");
-  var Qs = require("../lib/index");
+  var Qs = require("../../qs@4.0.0");
   var internals = {};
   var lab = exports.lab = Lab.script();
   var expect = Code.expect;

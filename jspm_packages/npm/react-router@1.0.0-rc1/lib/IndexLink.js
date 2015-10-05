@@ -1,32 +1,29 @@
-/* */
+/* */ 
 'use strict';
-
-Object.defineProperty(exports, '__esModule', {
-  value: true
-});
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-var _react = require('react');
-
+exports.__esModule = true;
+var _extends = Object.assign || function(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i];
+    for (var key in source) {
+      if (Object.prototype.hasOwnProperty.call(source, key)) {
+        target[key] = source[key];
+      }
+    }
+  }
+  return target;
+};
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {'default': obj};
+}
+var _react = require("../../../../../node_modules/react/react");
 var _react2 = _interopRequireDefault(_react);
-
-var _Link = require('./Link');
-
+var _Link = require("./Link");
 var _Link2 = _interopRequireDefault(_Link);
-
-"format cjs";
-
 var IndexLink = _react2['default'].createClass({
   displayName: 'IndexLink',
-
   render: function render() {
-    return _react2['default'].createElement(_Link2['default'], _extends({}, this.props, { onlyActiveOnIndex: true }));
+    return _react2['default'].createElement(_Link2['default'], _extends({}, this.props, {onlyActiveOnIndex: true}));
   }
-
 });
-
 exports['default'] = IndexLink;
 module.exports = exports['default'];

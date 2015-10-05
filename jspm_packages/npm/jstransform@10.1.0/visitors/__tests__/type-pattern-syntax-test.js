@@ -6,7 +6,7 @@ describe('static type pattern syntax', function() {
   beforeEach(function() {
     require("mock-modules").dumpCache();
     flowSyntaxVisitors = require("../type-syntax").visitorList;
-    jstransform = require("../../src/jstransform");
+    jstransform = require("../../../jstransform@10.1.0");
     destructuringVisitors = require("../es6-destructuring-visitors");
     visitorList = destructuringVisitors.visitorList;
   });

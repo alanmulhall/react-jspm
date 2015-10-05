@@ -1,6 +1,6 @@
 /* */ 
 var test = require("tape");
-var through = require("../index");
+var through = require("../../through@2.3.8");
 test('end before close', function(assert) {
   var ts = through();
   ts.autoDestroy = false;

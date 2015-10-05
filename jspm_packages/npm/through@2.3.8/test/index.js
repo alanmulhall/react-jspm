@@ -2,7 +2,7 @@
 (function(process) {
   var test = require("tape");
   var spec = require("stream-spec");
-  var through = require("../index");
+  var through = require("../../through@2.3.8");
   function write(array, stream) {
     array = array.slice();
     function next() {

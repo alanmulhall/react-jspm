@@ -1,5 +1,5 @@
 /* */ 
-var equal = require("../index");
+var equal = require("../../deep-equal@1.0.1");
 console.dir([equal({
   a: [2, 3],
   b: [4]

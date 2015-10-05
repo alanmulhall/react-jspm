@@ -1,9 +1,7 @@
-/* */
+/* */ 
 'use strict';
 
-Object.defineProperty(exports, '__esModule', {
-  value: true
-});
+exports.__esModule = true;
 exports.stringifyQuery = stringifyQuery;
 exports.parseQueryString = parseQueryString;
 
@@ -12,8 +10,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'd
 var _qs = require('qs');
 
 var _qs2 = _interopRequireDefault(_qs);
-
-"format cjs";
 
 function stringifyQuery(query) {
   return _qs2['default'].stringify(query, { arrayFormat: 'brackets' });

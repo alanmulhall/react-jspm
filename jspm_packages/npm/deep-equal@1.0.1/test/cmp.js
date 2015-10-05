@@ -1,7 +1,7 @@
 /* */ 
 (function(Buffer) {
   var test = require("tape");
-  var equal = require("../index");
+  var equal = require("../../deep-equal@1.0.1");
   var isArguments = require("../lib/is_arguments");
   var objectKeys = require("../lib/keys");
   test('equal', function(t) {
